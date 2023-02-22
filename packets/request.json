@@ -1,0 +1,13 @@
+[
+    { "name": "Min operating current",   "bits": 10, "type":4 },
+    { "name": "Operating current",   "bits": 10, "type":4 },
+    { "name": "Reserved",   "bits": 2},
+    { "name": "EPR Cap",   "bits": 1},
+    { "name": "UEM Sup",   "bits": 1},
+    { "name": "No Sus",   "bits": 1, "type":4 },
+    { "name": "USB Cap",   "bits": 1},
+    { "name": "CapMsmt",   "bits": 1 },
+    { "name": "GiveBack", "bits": 1 },
+    { "name": "Object position", "bits": 4, "type":4 },
+    { "bits": 8 }
+]

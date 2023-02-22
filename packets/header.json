@@ -1,0 +1,10 @@
+[
+    { "name": "Message type", "bits": 5 , "type":4 },
+    { "name": "D Role",   "bits": 1},
+    { "name": "PD Revision",   "bits": 2},
+    { "name": "P Role",   "bits": 1},
+    { "name": "Message ID",   "bits": 3 },
+    { "name": "DO count", "bits": 3 , "type":4 },
+    { "name": "Extended", "bits": 1 },
+    { "bits": 8 }
+]

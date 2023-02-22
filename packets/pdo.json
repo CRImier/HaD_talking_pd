@@ -1,0 +1,15 @@
+[
+    { "name": "Max current (10mV/bit)",   "bits": 10, "type":4 },
+    { "name": "Voltage (50mV/bit)",   "bits": 10, "type":4 },
+    { "name": "Peak Current",   "bits": 2},
+    { "name": "Reserved",   "bits": 1 },
+    { "name": "EPR Cap",   "bits": 1},
+    { "name": "UEM Sup",   "bits": 1},
+    { "name": "DRD", "bits": 1 },
+    { "name": "USB Cap",   "bits": 1},
+    { "name": "UC Pwr",   "bits": 1},
+    { "name": "USB Sus",   "bits": 1, "type":4 },
+    { "name": "DRP", "bits": 1 },
+    { "name": "Type (fixed)", "bits": 2, "type":4 },
+    { "bits": 8 }
+]
