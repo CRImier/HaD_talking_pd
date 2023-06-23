@@ -148,6 +148,7 @@ def request_pdo(num, current, max_current, msg_id=0):
     pdo[0] |= 0b00010 # request
 
     pdo[1] |= obj_count << 4
+    pdo[1] |= (msg_id & 0b111) << 1 # message ID
 
     # packing max current into fields
     max_current_b = max_current // 10
@@ -164,7 +165,6 @@ def request_pdo(num, current, max_current, msg_id=0):
     pdo[4] |= current_h
 
     pdo[5] |= (num+1) << 4 # object position
-    pdo[5] |= (msg_id) << 1 # message ID
     pdo[5] |= 0b1 # no suspend
 
     sop_seq[4] |= pdo_len
